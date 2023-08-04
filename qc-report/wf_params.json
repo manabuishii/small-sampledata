@@ -1,5 +1,6 @@
-{
-"project_directory": "./output",
-"sample_list_yaml": "./sample_list.yaml"
-}
-
+sample_list_yaml:  # type 'File'
+    class: File
+    path: ./sample_list.yaml
+project_directory:  # type 'Directory'
+    class: Directory
+    path: output
