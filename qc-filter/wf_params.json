@@ -1,0 +1,6 @@
+parameter_file:  # type 'File'
+    class: File
+    path: ./filtering_parameter.yaml
+project_directory:  # type 'Directory'
+    class: Directory
+    path: output
